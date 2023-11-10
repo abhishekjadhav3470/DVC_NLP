@@ -8,7 +8,7 @@ from src.utils.featurize import save_matrix
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 
-STAGE = "Two"
+STAGE = "two"
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
