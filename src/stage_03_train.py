@@ -8,7 +8,7 @@ import joblib
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-STAGE = "Three"
+STAGE = "three"
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
