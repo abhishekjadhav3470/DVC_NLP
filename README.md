@@ -1,10 +1,11 @@
-# dvc-project-template
-DVC project template
+# dvc-NLP-simple-usecase
+DVC NLP project
 
-## Reference Repo
-[Official reference repo](https://github.com/abhishekjadhav3470/DVC_NLP)
+## Reference repository:
+* [official reference repo](https://github.com/abhishekjadhav3470/DVC_NLP)
 
-### STEPS -
+
+## STEPS -
 
 ### STEP 01- Create a repository by using template repository
 
@@ -22,12 +23,13 @@ conda activate ./env
 OR
 ```bash
 source activate ./env
-
 ```
+
 ### One shot create and activate environment
 ```bash
 conda create --prefix ./env python=3.7 -y && source activate ./env
 ```
+
 ### STEP 04- install the requirements
 ```bash
 pip install -r requirements.txt
@@ -39,3 +41,16 @@ dvc init
 ```
 
 ### STEP 06- commit and push the changes to the remote repository
+
+
+### extra commands - 
+
+```bash
+echo "*.log" >> logs/.gitignore
+```
+
+```bash
+git rm --cached logs/running_logs.log
+```
+
+updated by rohan 

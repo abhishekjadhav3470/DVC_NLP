@@ -1,12 +1,13 @@
 ### dependency
 tqdm
 dvc
+dvc[s3]
 pandas
 numpy
 Scipy
+pyyaml
 scikit-learn
 lxml
-PyYAML
-
+botocore
 ### local packages -
- -e . # << uncomment this to install from setup.py
+-e . # << uncomment this to install from setup.py
