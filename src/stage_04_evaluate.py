@@ -10,7 +10,7 @@ import sklearn.metrics as metrics
 import math
 
 
-STAGE = "Four"
+STAGE = "four"
 
 logging.basicConfig(
     filename=os.path.join("logs", 'running_logs.log'), 
